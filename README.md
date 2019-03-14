@@ -257,7 +257,7 @@ $postData = new PostData([
     ]
 ]);
 ```
-
+**Attention**: For nested type casting to work your Docblock definition needs to be a Fully Qualified Class Name!
 ### A note on immutability
 
 These data transfer objects are meant to be only constructed once, and not changed thereafter.
